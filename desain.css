@@ -1,0 +1,110 @@
+h1{
+	color           : #8B008B;
+	font-size       : 40px;
+	font-family     : fixed;
+	text-align      : center;
+	text-decoration : underline;
+	text-transform  : capitalize;
+	max-height      : 45px;
+	max-width       : 150px;
+}
+	
+h2{
+	color      	   : indigo;
+	text-align 	   : center;
+	text-transform : uppercase;
+	font-size  	   : 40px;
+	font-family    : serif;
+	font-weight    : bold;
+	max-height     : 90px;
+}
+
+#menu {
+	background-color : #808000;
+	font-size		 : 30px;
+	display          : block;
+	height           : 100px;
+	width            : 132px;
+	text-decoration  : normal;
+	margin-top       : 50px;
+	margin-bottom    : 50px;
+	border           : 5px solid gray;
+	padding          : 50px;
+	position         : fixed;
+	left             : 1100px;
+	top              : 20px;
+}
+
+/* kondisi link normal */
+.hubung:link{
+	background:red;
+	color     :gold;
+}
+
+/* kondisi link yang telah dikunjungi */
+.hubung:visited{
+	background:fuchsia;
+	color     : gray;
+}
+
+/* kondisi mose diatas link */
+.hubung:hover{
+	background:lavender;
+	color     :#0000CD;
+}
+
+/* kondisi link sedang diklik */
+.hubung:active{
+	background:linen;
+	color     :indigo;
+}
+
+body {
+	background-color      : #EEE8AA;
+	background-image      : url(SMA.jpg);
+	background-repeat     : no-repeat;
+	background-attachment : fixed;
+	background-position   : center;
+}
+
+#pilih {
+	text-align  : justify;
+	text-indent : 35px;
+	color       : #DAA520;
+}
+
+#surat {
+	text-align : justify;
+	color      : #6495ED;
+}
+
+#konten {
+	text-align : justify;
+	color	   : #8A2BE2;
+}
+
+#apa {
+	float: right;
+}
+
+#apel {
+	background-color: yellow;
+	width: 50px;
+}
+
+.kulit:hover{
+	color: red;
+}
+
+#buah {
+	color: magenta;
+}
+
+input:focus, textarea:focus{
+	background: cyan;
+}
+
+#gula{
+	color    : #6A5ACD;
+	font-size: 45px;
+}

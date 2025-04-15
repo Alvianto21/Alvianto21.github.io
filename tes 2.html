@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> belajar koding halaman 2 </title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="desain.css">
+	</head>
+
+	<body>
+	
+		<div id="menu">
+			<a href="tes 1.html" class="hubung" target="_blank">halaman 1</a>
+			<br>
+			<a href="tes 2.html" class="hubung" style="color:red">halaman 2</a> 
+						<br>
+			<a href="tes 3.html" class="hubung" target="_blank">halaman 3</a>
+		</div>
+	
+		<!-- ini bagian awal yang berisi tag header -->
+		<div>
+			<h1> belajar koding </h1>
+			<h2> tutorial online halaman 2 </h2>
+		</div>
+		
+		<!-- ini contoh form -->
+		<div>
+			<form>
+				<fieldset id="surat">
+					<label for="teh">Nama</label>
+					<input type="text" placeholder="Nama anda" id="teh">
+					<br>
+					<label for="pesan_user">Pesan</label>
+					<textarea cols="50" rows="5" placeholder="Pesan anda" id="pesan_user"></textarea>
+					<br><br>
+				</fieldset>
+				<fieldset id="pilih">
+					<label> Hobi </label>
+					<p> Cetang pada hobi yang anda <b> sukai </b> </p>
+					<br>
+					<!-- ceckbox dan radio -->
+					<input type="checkbox" name="hobi_user" value="1"> menulis      <br>
+					<input type="checkbox" name="hobi_user" value="2"> menggambar   <br>
+					<input type="checkbox" name="hobi_user" value="3"> menari       <br>
+					<input type="checkbox" name="hobi_user" value="4"> membaca buku <br>
+					<br>
+				</fieldset>
+				<fieldset id="pilih">
+					<label> Jenis perangkat </label>
+					<p> pilih salah satu pada perangkat yang anda <b> sukai </b> </p>
+					<input type="radio" name="perangkat" value="1"> Handphone <br>
+					<input type="radio" name="perangkat" value="2"> Tablet    <br>
+					<input type="radio" name="perangkat" value="3"> Laptop    <br>
+					<input type="radio" name="perangkat" value="4"> PC        <br>
+					<br>
+				</fieldset>
+				<fieldset id="konten">
+					<!-- select dan option -->
+					<p> Pilihlah satu hewan yang anda <b> sukai </b> </p>
+					<br>
+					<label> Hewan: </label>
+					<select>
+						<optgroup label="hewan darat">
+							<option value="kadal"> Kadal </option>
+							<option value="anjing"> Anjing </option>
+							<option value="kucing"> Kucing </option>
+						</optgroup>
+						<optgroup label="hewan air">
+							<option value="paus"> Paus </option>
+							<option value="hiu"> Hiu </option>
+						</optgroup>
+						<optgroup label="hewan terbang">
+							<option value="nyamuk"> Nyamuk </option>
+							<option value="dara"> Dara </option>
+						</optgroup>
+					</select>
+				<fieldset>
+				<br>
+				<input type="submit" value="kirim data">
+			</form>
+		</div>
+		
+		<br><br>
+		
+		<!-- contoh penggunaan tablel -->
+		<div>
+			<table border="2">
+				<caption> Contoh Tablel </caption>
+				<tr>
+					<th>Kota</th>
+					<th>Nama</th>
+				</tr>
+				<tr>
+					<td>Jakata</td>
+					<td>Dani</td>
+				</tr>
+				<tr>
+					<td>Semarang</td>
+					<td>Upil</td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- contoh penggunaan list -->
+		<div>
+			<ul>
+				<li>Upil</li>
+				<li>Dani</li>
+			</ul>
+			<ol>
+				<li>Upil</li>
+				<li>Dani</li>
+			</ol>
+			<dl>
+				<dt>Upil</dt>
+				<dd>Pendatang pertama</dd>
+				
+				<dt>Upil</dt>
+				<dd>Pendatang ke dua</dd>
+			</dl>
+		</div>
+	</body>
+</html>
